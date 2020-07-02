@@ -33,6 +33,7 @@ Prediksi diatas didapat setelah training menggunakan stock price dari tahun 2004
   ```
   
 **2. training.py**
+
   digunakan untuk training deep learning
   
   memanggil data stock price yang sudah tersimpan
@@ -49,6 +50,7 @@ Prediksi diatas didapat setelah training menggunakan stock price dari tahun 2004
   ```
   
  **3. main.py**
+
   digunakan untuk mengecek tingkat keakurasian dari model deep learning
   
   memangil model yang sudah tersimpan
