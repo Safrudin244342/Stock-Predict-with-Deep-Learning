@@ -7,6 +7,7 @@ aplikasi untuk memprediksi stock price berdasarkan harga close 100 hari terakhir
 <img src="stockPredict.png">
 
 **garis hijau melambahkan harga predict dari program**
+
 **garis orange harga real dari stock price**
 
 Prediksi diatas didapat setelah training menggunakan stock price dari tahun 2004
