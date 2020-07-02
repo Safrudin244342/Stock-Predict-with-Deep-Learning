@@ -6,13 +6,13 @@ aplikasi untuk memprediksi stock price berdasarkan harga close 100 hari terakhir
 
 <img src="stockPredict.png">
 
-** garis hijau melambahkan harga predict dari program **
-** garis orange harga real dari stock price
+**garis hijau melambahkan harga predict dari program**
+**garis orange harga real dari stock price**
 
 Prediksi diatas didapat setelah training menggunakan stock price dari tahun 2004
 
 # penjelasan fungsi setiap script
-** 1. getDataframe.py **
+**1. getDataframe.py**
   
   digunakan untuk mendapatkan data stock price sesuai mata uang atau saham yang diinginkan
   
@@ -31,7 +31,7 @@ Prediksi diatas didapat setelah training menggunakan stock price dari tahun 2004
     pickle.dump(df, file)
   ```
   
-** 2. training.py **
+**2. training.py**
   digunakan untuk training deep learning
   
   memanggil data stock price yang sudah tersimpan
@@ -47,7 +47,7 @@ Prediksi diatas didapat setelah training menggunakan stock price dari tahun 2004
   model.save("model/AUDJPY.keras", include_optimizer=False)
   ```
   
- ** 3. main.py **
+ **3. main.py**
   digunakan untuk mengecek tingkat keakurasian dari model deep learning
   
   memangil model yang sudah tersimpan
