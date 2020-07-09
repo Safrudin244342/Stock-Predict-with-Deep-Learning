@@ -65,3 +65,5 @@ Prediksi diatas didapat setelah training menggunakan stock price dari tahun 2004
   with open("dataframe/dataframeAUDJPY=X.pickel", mode="rb") as file:
     df = pickle.load(file)
   ```
+
+[![Run on Repl.it](https://repl.it/badge/github/Safrudin244342/Stock-Predict-with-Deep-Learning)](https://repl.it/github/Safrudin244342/Stock-Predict-with-Deep-Learning)
